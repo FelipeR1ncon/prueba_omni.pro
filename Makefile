@@ -34,7 +34,7 @@ gnb:
   read -p "Write type branch[Ex. fix, feat]: " typeBranch; \
   read -p "[Branch purpose] (without spaces: EX. make-something-cool): " purpose; \
   echo git checkout -b $$typeBranch-$$username-app-$$purpose; \
-	git checkout -b $$typeBranch-$$username-flutter-leal-app-$$purpose; \
+	git checkout -b $$typeBranch-$$username-flutter-omni-app-$$purpose; \
   '
 
 cleanAndroid:
