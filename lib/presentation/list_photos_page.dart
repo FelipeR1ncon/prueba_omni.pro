@@ -197,7 +197,7 @@ class ListPhotosPageState extends ConsumerState<ListPhotosPage> {
                     ? tryAgainGetPhotosWidget(code)
                     : const SizedBox(),
                 noConnection: (messageError) => containerMessageError(
-                    '$messageError\n\nActiva la conexión a internet para que los datos se carguen automáticamente..',
+                    '$messageError\n\nActiva la conexión a internet para que los datos se carguen automáticamente.',
                     Colors.amber),
                 orElse: () => const SizedBox()),
             loading: () => const Padding(
