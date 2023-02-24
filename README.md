@@ -38,8 +38,12 @@ Esta compuesta por las siguientes capas:
 # Caracteristicas de la App 
 
 - Lista de fotos con paginación, realiza la carga cada vez que el usuario llega al final de la lista. 
+  - Video: https://user-images.githubusercontent.com/89667616/221255381-8fc5b0dc-8ea1-4e5b-b7cf-316079d4e401.mp4
 - Manejo y comunicación de errores que ocurran realizando las peticiones a la API.
+  - Video caso lista vacia: https://user-images.githubusercontent.com/89667616/221256110-6ca6147c-2b91-4e3c-b1ef-4906ce4a2e65.mp4
+  - Video caso lista con fotos: https://user-images.githubusercontent.com/89667616/221256031-e49fd60b-c33f-4da3-a1c0-3a4e19032813.mp4
 - Manejo y comunicación de error por perdida de conexión con carga automática una vez se recupere la conexión a internet. 
+  - Video: https://user-images.githubusercontent.com/89667616/221255747-f6858c01-8009-400c-866c-ffa47e2ad19b.mp4.
 
 # Requisitos  
 
