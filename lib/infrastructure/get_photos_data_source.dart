@@ -30,13 +30,6 @@ class GetPhotosDataSourceImpl implements GetPhotosDataSource {
       var url = Uri.https('jsonplaceholder.typicode.com', 'photos',
           {'_start': '$start', '_limit': '$limit'});
 
-
-      await Future.delayed(const Duration(seconds: 2));
-
-/*      throw RestApiException(
-          errorCode: 231,
-          errorMessage: 'Ocurrió un error descargando las fotos..');*/
-
       var response = await _clientHTTP.get(url);
 
       if (response.statusCode == 200) {
